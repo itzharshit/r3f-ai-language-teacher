@@ -119,7 +119,7 @@ async function GET(req) {
 
 async function getGroqChatCompletion() {
     const groq = new Groq({
-        apiKey: process.env.GROQ_API_KEY
+        apiKey: "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"
     });
 
     return groq.chat.completions.create({
